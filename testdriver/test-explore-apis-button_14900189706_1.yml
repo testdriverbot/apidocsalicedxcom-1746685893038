@@ -1,0 +1,13 @@
+version: 4.2.29
+session: 681c52e232fef6c6f161c105
+steps:
+  - prompt: Click on the "Explore APIs" button.
+    commands:
+      - command: hover-text
+        text: Explore APIs
+        description: button next to the "Sign up" button in the center of the page
+        action: click
+  - prompt: Assert that the API exploration page is displayed.
+    commands:
+      - command: assert
+        expect: the page displays a heading with "APIs"
