@@ -1,0 +1,15 @@
+version: 4.2.29
+session: 681c530cfb69e81eba10bf7c
+steps:
+  - prompt: Click on "Home" in the navigation menu.
+    commands:
+      - command: hover-text
+        text: Home
+        description: home link in the navigation menu
+        action: click
+  - prompt: Assert that the home page is displayed.
+    commands:
+      - command: assert
+        expect: >-
+          the home page with "Generative AI and ChatGPT Enterprise AI Gateway
+          Services" is displayed
