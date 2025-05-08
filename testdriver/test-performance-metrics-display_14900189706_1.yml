@@ -1,0 +1,9 @@
+version: 4.2.29
+session: 681c52ecfb69e81eba10bf59
+steps:
+  - prompt: Scroll down.
+    commands:
+      - command: scroll
+        direction: down
+        method: keyboard
+        amount: 300
