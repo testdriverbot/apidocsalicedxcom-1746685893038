@@ -1,0 +1,13 @@
+version: 4.2.29
+session: 681c52ed32fef6c6f161c10b
+steps:
+  - prompt: Click on "APIs" in the navigation menu.
+    commands:
+      - command: hover-text
+        text: APIs
+        description: APIs option in the navigation menu at the top of the page
+        action: click
+  - prompt: Assert that the APIs page is displayed.
+    commands:
+      - command: assert
+        expect: Generative AI and ChatGPT Enterprise AI Gateway Services
