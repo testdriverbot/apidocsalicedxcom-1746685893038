@@ -1,0 +1,1 @@
+1. Assert that the main heading "Generative AI and ChatGPT Enterprise AI Gateway Services" is visible on the home page.
