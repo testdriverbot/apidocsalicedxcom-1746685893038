@@ -1,0 +1,13 @@
+version: 4.2.29
+session: 681c52e8fb69e81eba10bf57
+steps:
+  - prompt: Click on "Sign in" in the navigation menu.
+    commands:
+      - command: hover-text
+        text: Sign in
+        description: sign in option in the top navigation menu
+        action: click
+  - prompt: Assert that the sign-in page is displayed.
+    commands:
+      - command: assert
+        expect: the "Sign in" heading is visible on the page
