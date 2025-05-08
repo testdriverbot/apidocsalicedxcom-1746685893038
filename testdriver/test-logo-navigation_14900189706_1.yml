@@ -1,0 +1,15 @@
+version: 4.2.29
+session: 681c52eefb69e81eba10bf5d
+steps:
+  - prompt: Click on the "Alice DX Studio" logo.
+    commands:
+      - command: hover-text
+        text: Alice DX Studio
+        description: logo in the top left corner of the webpage
+        action: click
+  - prompt: Assert that the home page is displayed.
+    commands:
+      - command: assert
+        expect: >-
+          Generative AI and ChatGPT Enterprise AI Gateway Services is visible on
+          the page
