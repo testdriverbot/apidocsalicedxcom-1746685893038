@@ -1,0 +1,13 @@
+version: 4.2.29
+session: 681c52ecfb69e81eba10bf5b
+steps:
+  - prompt: Click on "Products" in the navigation menu.
+    commands:
+      - command: hover-text
+        text: Products
+        description: products link in the top navigation menu
+        action: click
+  - prompt: Assert that the products page is displayed.
+    commands:
+      - command: assert
+        expect: the page displays "Products" as the title
